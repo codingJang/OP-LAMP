@@ -8,10 +8,10 @@ OP-LAMP is a project that synthesizes the voltages of two RC circuits to draw va
 
 - **Cardioid Curve**: This curve is generated when a pink circle rotates around a yellow circle with a radius ratio of 1:1 or 2:1. The angular speed ratio between the two is 1:2. The resulting motion is represented by the equation:
   $$(cos(ωt) + 0.5cos(2ωt), sin(ωt) + 0.5sin(2ωt))$$
-  ![Cardioid Curve Setup](https://imgur.com/a/pXWhozD)
+  ![Cardioid Curve Setup](https://i.imgur.com/i0vXXjK.png)
 
 - **Epicycloid & Epitrochoid Curves**: These curves are generated based on the size ratio of the two circles and the position of the tracing point on the pink circle.
-  ![Epicycloid and Epitrochoid](https://imgur.com/a/9YNFAdJ)
+  ![Epicycloid and Epitrochoid](https://i.imgur.com/i0vXXjK.png)
 
 ## Experiments & Findings
 
