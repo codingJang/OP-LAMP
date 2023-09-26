@@ -34,6 +34,3 @@ The design was modified to allow for free changes in resistance. This made it po
 
 Using the RC circuit and the inverting summing amplifier circuit, we successfully constructed and implemented a circuit that can freely express the Cardioid curve, including the Epicycloid and Epitrochoid curve families, as Lissajous figures. Although currently limited to the Epicycloid/Epitrochoid curve families, theoretically, by adding countless circular motions of different frequencies, we can always represent a curve of finite length. To implement this, we are considering using devices that generate high frequencies, like a modified oscillator, and then using counter circuits to downscale and convert to sinusoidal waves for synthesis.
 
----
-
-Note: The images referenced in the README (e.g., 그림 1, 그림 2, etc.) would need to be added to the repository and linked appropriately for them to be displayed.
