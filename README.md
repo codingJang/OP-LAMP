@@ -8,17 +8,21 @@ OP-LAMP is a project that synthesizes the voltages of two RC circuits to draw va
 
 - **Cardioid Curve**: This curve is generated when a pink circle rotates around a yellow circle with a radius ratio of 1:1 or 2:1. The angular speed ratio between the two is 1:2. The resulting motion is represented by the equation:
   $$(cos(ωt) + 0.5cos(2ωt), sin(ωt) + 0.5sin(2ωt))$$
-  ![Cardioid Curve Setup](https://i.imgur.com/i0vXXjK.png)
+
+<img width="682" alt="Screenshot 2023-09-26 at 1 06 10 AM" src="https://github.com/codingJang/OP-LAMP/assets/56782623/5086cb85-f8df-44b3-9b35-26613a9d08f9">
+
 
 - **Epicycloid & Epitrochoid Curves**: These curves are generated based on the size ratio of the two circles and the position of the tracing point on the pink circle.
-  ![Epicycloid and Epitrochoid](https://i.imgur.com/i0vXXjK.png)
+
+<img width="1078" alt="Screenshot 2023-09-26 at 1 07 22 AM" src="https://github.com/codingJang/OP-LAMP/assets/56782623/c2315984-6011-433e-ae24-67c1d6a8529d">
+
 
 ## Experiments & Findings
 
 During the breadboard demonstration, the following observations were made:
 - The voltage of the first RC circuit corresponds to '1' and the voltage of the second RC circuit corresponds to '2'.
-  ![First Circuit](그림 4)
-  ![Breadboard Demonstration](그림 5)
+
+![Picture1](https://github.com/codingJang/OP-LAMP/assets/56782623/c1c30397-fc97-4f83-be2e-947d578ce599)
 
 - When the input frequency of the second circuit was doubled, unexpected results were observed. This was due to the impedance of the capacitor decreasing with the increase in frequency, leading to a decrease in voltage across the capacitor.
   $$|R| = \left| \frac{1}{j\omega C} \right| \implies f \times R = \frac{1}{2πC}$$
@@ -27,8 +31,10 @@ During the breadboard demonstration, the following observations were made:
 ## Final Design
 
 The design was modified to allow for free changes in resistance. This made it possible to represent both the Epicycloid and Epitrochoid curves.
-![Design](그림 8)
-![Final Product](그림 9)
+
+![Picture3](https://github.com/codingJang/OP-LAMP/assets/56782623/8a462b67-cf97-4e0f-91d9-18fab7461341)
+
+![Picture5](https://github.com/codingJang/OP-LAMP/assets/56782623/e54a8605-d394-400c-ae18-780ac2be6c44)
 
 ## Conclusion
 
